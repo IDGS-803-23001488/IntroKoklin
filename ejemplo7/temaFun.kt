@@ -13,11 +13,11 @@ fun mostrarMayor(v1: Int, v2: Int, v3: Int){
 
 fun main(args: Array<String>) {
     print("Ingrese primer valor:")
-    val valor1 = readLn().toInt()
+    val valor1 = readln().toInt()
     print("Ingrese segundo valor:")
-    val valor2 = readLn().toInt()
+    val valor2 = readln().toInt()
     print("Ingrese tercer valor:")
-    val valor3 = readLn().toInt()
+    val valor3 = readln().toInt()
     
     val resultado = mostrarMayor(valor1,valor2,valor3)
 
